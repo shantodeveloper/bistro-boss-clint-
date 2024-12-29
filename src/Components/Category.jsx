@@ -12,10 +12,6 @@ import SectionTitel from '../Shared/SectionTitel';
 const Category = ({ subHeading, heading }) => {
   return (
     <section>
-      {/* <SectionTitel
-        subHeading={'From 11.00am to 10.00pm'}
-        heading={'Order Online'}
-      ></SectionTitel> */}
       <SectionTitel
         subHeading={'From 11.00am to 10.00pm'}
         heading={'Order Online'}
