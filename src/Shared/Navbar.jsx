@@ -1,17 +1,19 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   const navlist = (
     <>
-      <li>
-        <a>Item 1</a>
-      </li>
-      <li>
-        <a>Parent</a>
-      </li>
-      <li>
-        <a>Item 3</a>
-      </li>
+      <NavLink to={'/'}>
+        <li>
+          <a>Home</a>
+        </li>
+      </NavLink>
+      <NavLink to={'/menu'}>
+        <li>
+          <a>Menu</a>
+        </li>
+      </NavLink>
     </>
   );
 
