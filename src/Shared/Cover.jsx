@@ -10,7 +10,7 @@ const Cover = ({ img, titel }) => {
         bgImageAlt="the dog"
         strength={-200}
       >
-        <div className="hero h-[700px]">
+        <div className="hero h-[500px]">
           <div className="hero-overlay bg-opacity-60"></div>
           <div className="hero-content text-neutral-content text-center">
             <div className="max-w-md">
@@ -20,7 +20,6 @@ const Cover = ({ img, titel }) => {
                 assumenda excepturi exercitationem quasi. In deleniti eaque aut
                 repudiandae et a id nisi.
               </p>
-              <button className="btn btn-primary">Get Started</button>
             </div>
           </div>
         </div>
